@@ -1,0 +1,68 @@
+body {
+    color: oldlace;
+    background: dimgray;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 86px;
+}
+
+header {
+    border-bottom: solid 1px lightyellow;
+    padding: 20px;
+    font-size: 34px;
+    color: lightyellow
+}
+
+.chamada {
+    background: #5e6054;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chamada-texto {
+    margin-right: 5%;    
+
+
+}
+
+h1{ 
+font-size: 40px;
+
+}
+
+p{
+    font-size:20px;
+}
+
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 7px;
+}
+
+.sec-vid h2 {
+    padding:20px ;
+    color: lightyellow;
+}
+
+.sec-vid {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+
+}
+
+.sec-vid img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.sec-vid img:hover {
+    opacity: 1;
+    border: solid red; 
+    
+}
